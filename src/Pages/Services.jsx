@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 { /* Text setup for the services offered at Quick Cutz */}
 function Services() {
   const services = [
-    { title: "Buzzcut", price: "$20", description: "Quick, cheap, and straight to the point.", icon: "../public/assets/buzzcut.png" },
+    { title: "Buzzcut", price: "$20", description: "Quick, cheap, and straight to the point.", icon: "/assets/buzzcut.png" },
     { title: "Kidz Cut", price: "$15", description: "Bring in your kidz during your appoitment, and Quick Cutz wil also have them leaving with an amazing, confident haircut!",  icon: "/assets/kidzcut.png" },
     { title: "Men's Haircut", price: "$25", description: "From fades, to taper fades, to middle parts, our stylists have something for every man who walks through the door!",  icon: "/assets/MensCut.png" },
     { title: "Women's Haircut", price: "$20", description: "Combined with the best rate in South Simcoe, come get a stylish Women's cut that'll make you look and feel amazing!",  icon: "/assets/WomensCut.png" },

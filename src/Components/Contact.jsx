@@ -44,6 +44,19 @@ export default function Contact() {
       {/* bottom bar */}
       <div className="contact-bottom">
         <p>© {new Date().getFullYear()} Quick Cutz. All rights reserved.</p>
+
+        <p>
+          This website is a prototype ONLY, designed by Christian Sampson for
+          SEG3125 – Design and Analysis of User Interfaces. Find my work here:
+          <br />
+          <a
+            href="https://christian-sampson-portfolio.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            christian-sampson-portfolio.netlify.app
+          </a>
+        </p>
       </div>
 
     </section>
