@@ -11,19 +11,19 @@ function Stylists() {
       name: "Chris",
       specialty: "Mens, Womens, and Kidz Stylist",
       bio: "Chris is a stylist professional carrying over 10 years of experience. He has styled hair in Europe before joining the team, and loves to strike up a good conversation during his cutz!",
-      image: "../public/assets/Chris.jpg"
+      image: "/assets/Chris.jpg"
     },
     {
       name: "Amelia",
       specialty: "Womens and Kidz Stylist",
       bio: "Amelia is a friendly stylist who is continuously building her hairdressing portfolio. Graduating top of her class from Ottawa's premiere stylist university, she can make any style look amazing!",
-      image: "../public/assets/Amelia.jpg"
+      image: "/assets/Amelia.jpg"
     },
     {
       name: "Tanya",
       specialty: "Beard, Design, Mens, Womens and Kidz Stylist",
       bio: "Tanya is a designer connoisseur, beard expert, masterful womens stylist, and serves as Quick Cutz's in-house mentor. If you want to try something new, Tanya has you covered!",
-      image: "../public/assets/Tanya.jpg"
+      image: "/assets/Tanya.jpg"
     },
   ];
 
