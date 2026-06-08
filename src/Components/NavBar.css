@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  width: 100%;
+  background: rgba(17, 24, 39, 0.98);
+  backdrop-filter: blur(10px);
+  color: white;
+
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.logo {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+
+  color: #f9fafb;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  letter-spacing: -0.03em;
+  margin-bottom: -1rem;
+
+}
+
+.nav-links {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: -1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  list-style: none;
+}
+
+.nav-links li,
+.nav-links a {
+
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: #d1d5db;
+
+  transition: all 0.25s ease;
+}
+
+.nav-links a:hover {
+  color: #d97757;
+}
+
+.menu-btn {
+  display: none;
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .navbar-container {
+    padding: 1rem 1.5rem;
+    position: relative;
+  }
+
+  .nav-links {
+    gap: 1.25rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn {
+    padding: 0.8rem 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    display: none;
+    flex-direction: column;
+
+    background: #111827;
+
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+
+    border-top: none;
+
+    margin: 0;
+    align-items: center;
+
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+.cta-btn {
+  text-decoration: none;
+
+  background: #d97757;
+  color: white;
+
+  padding: 1rem 1.75rem;
+  border-radius: 12px;
+
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+
+  transition: all 0.25s ease;
+
+  box-shadow:
+    0 10px 20px rgba(217, 119, 87, 0.2);
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+
+  background: #e58a68;
+
+  box-shadow:
+    0 14px 28px rgba(217, 119, 87, 0.3);
+}

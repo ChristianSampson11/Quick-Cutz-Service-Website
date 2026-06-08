@@ -1,0 +1,146 @@
+/* Page background for the stylists page */
+.stylists-page {
+  background-color: #111827;
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Section for the top part of the stylists page, containing title and subtitle. */
+.stylists-hero {
+  padding: 80px 0 40px;
+  text-align: center;
+}
+
+.stylists-title {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 800;
+
+  color: #f9fafb;
+  letter-spacing: -0.05em;
+
+  margin: 0;
+}
+
+.stylists-subtitle {
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 700px; 
+  text-align: center;
+  line-height: 1.6;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #d1d5db;
+}
+
+/* Grid setup containing stylists */
+.stylists-list {
+  padding: 40px 0 80px;
+}
+
+.stylist-col {
+  display: flex;
+  justify-content: center;
+}
+
+.stylist-card {
+  background-color: #1f2937;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  padding-bottom: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stylist-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Image wrapper for images of stylists */
+.stylist-image-wrapper {
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+
+.stylist-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Card contents containing stylist name, speciality, and a description */
+.stylist-name {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.stylist-specialty {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.1rem;
+  color: #d97757;
+  margin-bottom: 10px;
+}
+
+.stylist-bio {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.95rem;
+  opacity: 0.85;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.stylist-book-btn:hover {
+  background-color: #c26648;
+}
+
+/* CTA Card to route to booking page */
+.cta-card {
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 40px;
+  margin-top: 60px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cta-title {
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #d97757;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+
+  background: #e58a68;
+
+  box-shadow:
+    0 14px 28px rgba(217, 119, 87, 0.3);
+}

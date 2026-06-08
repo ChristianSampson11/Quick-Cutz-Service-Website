@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+/* Backround colouring for the services page. */
+.services-page {
+  background-color: #111827;
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Top section for the services page. */
+.services-hero {
+  padding: 80px 0 40px;
+  text-align: center;
+}
+
+.services-title {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(3rem, 6vw, 6rem);
+  font-weight: 800;
+
+  color: #f9fafb;
+  letter-spacing: -0.05em;
+
+  margin: 0;
+}
+
+.services-subtitle {
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 700px; 
+  text-align: center;
+  line-height: 1.6;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #d1d5db;
+
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.08);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.service-icon img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+/* Services Grid */
+.services-list {
+  padding: 40px 0 80px;
+}
+.service-col {
+  display: flex;
+  justify-content: center;
+}
+.service-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 25px;
+  width: 100%;
+  max-width: 400px; 
+  text-align: center;
+  min-height: 260px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 0 auto;
+}
+
+/* Hover cosmetic for the service cards, giving them life when the user hovers over them with their mouse */
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Icon section and setup for the cards. */
+.service-icon-placeholder {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+
+/* Text */
+.service-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.service-description {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-bottom: 12px;
+  flex-grow: 1;
+}
+
+.service-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #d97757;
+  margin-top: auto;
+}
+
+/* CTA Card */
+.cta-card {
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 40px;
+  margin-top: 60px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cta-title {
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #d97757;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+
+}
+
+/* Hover cosmetic for the buttons, giving them life when the user hovers over them with their mouse */
+.cta-button:hover {
+  transform: translateY(-2px);
+
+  background: #e58a68;
+
+  box-shadow:
+    0 14px 28px rgba(217, 119, 87, 0.3);
+}

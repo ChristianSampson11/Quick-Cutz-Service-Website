@@ -1,0 +1,117 @@
+.book-page {
+  background-color: #111827;
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  min-height: 100vh;
+}
+
+.book-container {
+  padding: 60px 0;
+}
+
+.book-section {
+  background-color: #1f2937;
+  padding: 24px 28px;        
+  border-radius: 12px;
+  margin-bottom: 32px;
+  border: 1px solid rgba(255,255,255,0.08);
+  max-width: 700px;         
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.book-section h2 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.4rem;       
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.book-section .form-control {
+  padding: 8px 10px;
+  font-family: 'Manrope', sans-serif;         
+  font-size: 0.95rem;
+}
+
+.book-section select {
+  padding: 8px 10px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.95rem;
+  border-radius: 8px;
+}
+
+/* Service Options */
+.service-option {
+  background-color: #111827;
+  padding: 14px;                 
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: all 0.2s ease;
+  margin-bottom: 20px;           
+  max-width: 240px;             
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-option h4 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.service-option p {
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.service-option:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+.service-option.selected {
+  border-color: #d97757;
+  background-color: #1f1f1f;
+}
+
+.error-box {
+  background-color: #7f1d1d;
+  color: #fecaca;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Submit Button */
+.book-btn {
+  background-color: #d97757;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 12px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.book-btn:hover {
+  background-color: #c26648;
+}
+
+/* Confirmation Page */
+.confirmation-page {
+  background-color: #111827;
+  color: white;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.confirmation-container {
+  text-align: center;
+  padding: 40px 0;
+}
