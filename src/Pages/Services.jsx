@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/NavBar";
 import BottomBorder from "../Components/Contact";
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
