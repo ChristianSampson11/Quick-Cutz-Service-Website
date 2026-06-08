@@ -18,7 +18,7 @@ a. Is developed using a JavaScript framework (e.g., React)
 b. Is interactive (responds to commands – buttons, list selections)
 c. Is accessible through my portfolio (from assignment 1)
 
-Your high-fidelity prototype is guided by the following visual design principles:
+My high-fidelity prototype is guided by the following visual design principles:
 a. The use of a color theme to insure consistency
 b. Typography
 c. Iconography
