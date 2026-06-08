@@ -9,12 +9,12 @@ import { Link } from "react-router-dom";
 function Services() {
   const services = [
     { title: "Buzzcut", price: "$20", description: "Quick, cheap, and straight to the point.", icon: "../public/assets/buzzcut.png" },
-    { title: "Kidz Cut", price: "$15", description: "Bring in your kidz during your appoitment, and Quick Cutz wil also have them leaving with an amazing, confident haircut!",  icon: "../public/assets/kidzcut.png" },
-    { title: "Men's Haircut", price: "$25", description: "From fades, to taper fades, to middle parts, our stylists have something for every man who walks through the door!",  icon: "../public/assets/MensCut.png" },
-    { title: "Women's Haircut", price: "$20", description: "Combined with the best rate in South Simcoe, come get a stylish Women's cut that'll make you look and feel amazing!",  icon: "../public/assets/WomensCut.png" },
-    { title: "Hot Towel + Shave", price: "$50", description: "Add on a luxurious experience to your haircut, and let our stylists make your face look great too!",  icon: "../public/assets/HotTowel.png" },
-    { title: "Additional Designs", price: "$10", description: "Lightning bolt? Initials? You name it, we'll design it!",  icon: "../public/assets/Additional.png" },
-    { title: "Beard Shave/Trim", price: "$15", description: "We offer beard services! Professional shaving services at an affordable rate.",  icon: "../public/assets/Shave.png" },
+    { title: "Kidz Cut", price: "$15", description: "Bring in your kidz during your appoitment, and Quick Cutz wil also have them leaving with an amazing, confident haircut!",  icon: "/assets/kidzcut.png" },
+    { title: "Men's Haircut", price: "$25", description: "From fades, to taper fades, to middle parts, our stylists have something for every man who walks through the door!",  icon: "/assets/MensCut.png" },
+    { title: "Women's Haircut", price: "$20", description: "Combined with the best rate in South Simcoe, come get a stylish Women's cut that'll make you look and feel amazing!",  icon: "/assets/WomensCut.png" },
+    { title: "Hot Towel + Shave", price: "$50", description: "Add on a luxurious experience to your haircut, and let our stylists make your face look great too!",  icon: "/assets/HotTowel.png" },
+    { title: "Additional Designs", price: "$10", description: "Lightning bolt? Initials? You name it, we'll design it!",  icon: "/assets/Additional.png" },
+    { title: "Beard Shave/Trim", price: "$15", description: "We offer beard services! Professional shaving services at an affordable rate.",  icon: "/assets/Shave.png" },
   ];
   return (
     <section className="services" id="services">

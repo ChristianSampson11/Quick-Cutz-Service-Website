@@ -26,7 +26,7 @@ export default function Landing() {
 
         {/* Image of Quick Cutz's location. */}
         <div className="landing-image">
-          <img src="../public/assets/QuickCutzLocation.jpeg" alt="Image of Quick Cutz" />
+          <img src="/assets/QuickCutzLocation.jpeg" alt="Image of Quick Cutz" />
         </div>
 
       </div>

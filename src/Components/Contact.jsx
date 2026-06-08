@@ -32,10 +32,10 @@ export default function Contact() {
           <h3>SOCIAL MEDIA</h3>
 
           <div className="social-icons">
-            <img src="../public/assets/facebook.png" alt="Facebook" />
-            <img src="../public/assets/instagram.png" alt="Instagram" />
-            <img src="../public/assets/tiktok.png" alt="TikTok" />
-            <img src="../public/assets/TripAdvisor.png" alt="Tripadvisor" />
+            <img src="/assets/facebook.png" alt="Facebook" />
+            <img src="/assets/instagram.png" alt="Instagram" />
+            <img src="/assets/tiktok.png" alt="TikTok" />
+            <img src="/assets/TripAdvisor.png" alt="Tripadvisor" />
           </div>
         </div>
 
